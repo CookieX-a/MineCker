@@ -3,7 +3,7 @@
 ## 中文 (zh-cn)
 
 ### 概述
-本模组为 Minecraft Java 版（NeoForge 加载器）提供了一种在游戏内直接执行 Docker 命令的方式。服务端 OP 只需在聊天栏输入以 `!docker` 开头的消息，即可将后续参数传递给系统的 Docker CLI 并执行，执行结果（标准输出和错误输出）会实时返回给玩家。
+本模组为 Minecraft Java 版（NeoForge 加载器、Spigot 服务端、Paper服务端、Purpur服务端）提供了一种在游戏内直接执行 Docker 命令的方式。服务端 OP 只需在聊天栏输入以 `!docker` 开头的消息，即可将后续参数传递给系统的 Docker CLI 并执行，执行结果（标准输出和错误输出）会实时返回给玩家。
 
 ### 功能特性
 - **仅限OP**：仅拥有 OP 权限（等级 4）的玩家可以使用，防止未授权执行。
@@ -26,7 +26,7 @@
 - **危险符号已被拦截**：包含 `|`、`&&` 等符号的命令会被拒绝执行，但这并不能完全避免所有风险（例如 `docker rm -f $(docker ps -aq)` 仍然危险）。建议仅授予可信玩家 OP。
 
 ### 环境要求
-- 服务端：Minecraft 1.21.8 + NeoForge
+- 服务端：Minecraft 1.21.8/1.21.1 + NeoForge 或 Minecraft 1.21.x + Spigot/Paper/Purpur
 - 操作系统：Windows（需安装 Docker Desktop）或 Linux（需安装 Docker Engine 并确保当前用户有执行权限）
 - Docker：任何版本均可，只要 `docker` 命令在系统 PATH 中可用
 
@@ -39,14 +39,13 @@
 ### 其他
 由 DeepSeek 协助开发，使用 MCreator 开发。
 如果你想要在你的模组中使用这个库，非常简单，只需要发送一个消息"!docker (命令)"就可以了！
-下载链接：[Modrinth](https://modrinth.com/plugin/minecker)
 
 ---
 
 ## English (en-uk)
 
 ### Overview
-This mod allows Minecraft Java Edition (NeoForge) server operators to execute Docker commands directly from in-game chat. By typing a message starting with `!docker`, the rest of the message is passed to the system’s Docker CLI, and the output (both stdout and stderr) is sent back to the player.
+This mod allows Minecraft Java Edition (NeoForge/Spigot/Paper/Purpur) server operators to execute Docker commands directly from in-game chat. By typing a message starting with `!docker`, the rest of the message is passed to the system’s Docker CLI, and the output (both stdout and stderr) is sent back to the player.
 
 ### Features
 - **OP Only**: Only players with OP level 4 can use the command.
@@ -69,7 +68,7 @@ This mod allows Minecraft Java Edition (NeoForge) server operators to execute Do
 - **Dangerous symbols are blocked** (e.g., `|`, `&&`), but this does not prevent all malicious commands (e.g., `docker rm -f $(docker ps -aq)` is still dangerous). Only grant OP to players you trust.
 
 ### Requirements
-- Server: Minecraft 1.21.8 + NeoForge
+- Server: Minecraft 1.21.8/1.21.1 + NeoForge Or Minecraft 1.21.x + Spigot/Paper/Purpur
 - OS: Windows (with Docker Desktop) or Linux (with Docker Engine, and the server user must have permission to run Docker)
 - Docker: Any version that provides a working `docker` command in system PATH.
 
@@ -82,4 +81,3 @@ This mod is licensed under the [MIT License]. Docker is a trademark of Docker, I
 ### Other
 DeepSeek help me create this mod.Made by MCreator.
 If you want to use this lib for you mod, it's very easy, you just need to send a message "!docker (command)"!
-Download Link：[Modrinth](https://modrinth.com/plugin/minecker)
