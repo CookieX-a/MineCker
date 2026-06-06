@@ -1,0 +1,76 @@
+{
+  "mod_elements": [
+    {
+      "name": "OnChatDocker",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_chat_docker",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "text",
+            "type": "string"
+          }
+        ],
+        "files": [
+          "src/main/java/x/cookie/minecker/procedures/OnChatDockerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WhenModLoad",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_mod_load",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/x/cookie/minecker/procedures/WhenModLoadProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/x/cookie/minecker/MineckerMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minecker",
+    "modName": "MineCker",
+    "version": "0.0.1b",
+    "description": "This plugin allows Docker to be remotely controlled by OP.",
+    "author": "MCreator,CookieX_a",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": true,
+    "modPicture": "docker-mark-blue",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Made by MCreator.AI Deepseek help I create it",
+    "modElementsPackage": "x.cookie.minecker"
+  },
+  "mcreatorVersion": 202600114619
+}

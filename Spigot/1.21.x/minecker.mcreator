@@ -1,0 +1,75 @@
+{
+  "mod_elements": [
+    {
+      "name": "WhenModLoad",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_mod_load",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/x/cookie/minecker/procedures/WhenModLoadProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OnChatDocker",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_chat_docker",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "text",
+            "type": "string"
+          }
+        ],
+        "files": [
+          "src/main/java/x/cookie/minecker/procedures/OnChatDockerProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/x/cookie/minecker/MineckerMod.java",
+      "src/main/java/x/cookie/minecker/MineckerModRegisters.java",
+      "src/main/resources/plugin.yml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minecker",
+    "modName": "MineCker",
+    "version": "0.0.1b",
+    "description": "This plugin allows Docker to be remotely controlled by OP",
+    "author": "MCreator,CookieX_a",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "spigot-1.21.4",
+    "credits": "Create by MCreator,AI DeepSeek help me create this plugins",
+    "modElementsPackage": "x.cookie.minecker"
+  },
+  "mcreatorVersion": 202600114619
+}

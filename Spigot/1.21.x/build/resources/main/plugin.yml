@@ -1,0 +1,9 @@
+name: minecker
+version: '0.0.1b'
+main: x.cookie.minecker.MineckerMod
+api-version: '1.21'
+authors: [MCreator,CookieX_a]
+description: This plugin allows Docker to be remotely controlled by OP
+website: https://mcreator.net
+
+commands:

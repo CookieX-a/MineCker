@@ -1,0 +1,8 @@
+{
+  "_fv": 85,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">mod_serverload</field><next><block type=\"java_code\"><field name=\"CODE\">// 获取服务端的运行目录&amp;#10;java.io.File gameDir = net.neoforged.fml.loading.FMLPaths.GAMEDIR.get().toFile();&amp;#10;// 然后在这个目录下创建 LocalDockerAPI 文件夹&amp;#10;java.io.File localDockerAPIDir = new java.io.File(gameDir, \"LocalDockerAPI\");&amp;#10;&amp;#10;if (!localDockerAPIDir.exists()) {&amp;#10;    localDockerAPIDir.mkdirs();&amp;#10;    System.out.println(\"已创建 LocalDockerAPI 文件夹: \" + localDockerAPIDir.getAbsolutePath());&amp;#10;} else {&amp;#10;    System.out.println(\"LocalDockerAPI 文件夹已存在: \" + localDockerAPIDir.getAbsolutePath());&amp;#10;}</field></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}
