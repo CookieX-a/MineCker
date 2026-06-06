@@ -39,6 +39,7 @@
 ### 其他
 由 DeepSeek 协助开发，使用 MCreator 开发。
 如果你想要在你的模组中使用这个库，非常简单，只需要发送一个消息"!docker (命令)"就可以了！
+下载链接：[Modrinth](https://modrinth.com/plugin/minecker)
 
 ---
 
@@ -81,3 +82,4 @@ This mod is licensed under the [MIT License]. Docker is a trademark of Docker, I
 ### Other
 DeepSeek help me create this mod.Made by MCreator.
 If you want to use this lib for you mod, it's very easy, you just need to send a message "!docker (command)"!
+Download Link：[Modrinth](https://modrinth.com/plugin/minecker)
